@@ -1,5 +1,40 @@
+
+body{
+    background-color: #121211;
+}
+.container {
+    max-width: 960px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.aside_block{
+    color: aliceblue;
+    width: 31%;
+    background-color: #2c2c2d;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contact{
+    margin-left: 10px;
+}
+h3{
+    text-align: center;
+    color: #10c4c9;
+}
+ul {
+    list-style: none;
+}
+#email{
+    background: none;
+    height: 25px;
+
+}
+
 .header{
-    float: left;
-    width: 33%;
-    background:#809900;
+
 }
