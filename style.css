@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body{
     background-color: #121211;
 }
@@ -10,20 +12,18 @@ body{
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
-    font-family: 'Roboto', sans-serif;
 }
 .aside_block{
     color: aliceblue;
     width: 31%;
     background-color: #2c2c2d;
     font-weight: 500;
-    font-size: 20px;
-}
-.contact{
-    margin-bottom: 5px;
     font-size: 18px;
+
 }
+
 h3{
+    font-size: 1.3em;
     text-align: center;
     color: #10c4c9;
 }
@@ -44,4 +44,49 @@ ul {
 
 a{
     color: white;
+}
+.line{
+    margin-left: 80px;
+    background: #353b48;
+    height: 3px;
+
+}
+.education{
+    padding-top: 10px;
+    font-size: 17px;
+}
+.skills{
+    list-style: none;
+}
+.skills li{
+    padding-left:40px;
+    padding-right: 20px;
+}
+.skills p{
+    line-height: 1px;
+    font-size: 20px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 50%;
+}
+.js{
+    width:70%;
+}
+.git{
+    width: 50%;
 }

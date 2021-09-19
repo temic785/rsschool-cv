@@ -18,7 +18,7 @@ I'm 21 years old, i work with banking software in "Belgazprom Bank". I have been
 
 - Node.js() 
 
-- C++/C(basic knowledge)
+- C++/C#(basic knowledge)
 
 - Python(basic knowledge)
 
