@@ -1,17 +1,15 @@
 *{
     font-family: 'Montserrat', sans-serif;
-    <!--font-family: 'Montserrat', sans-serif;-->
 }
 body{
     background-color: #121211;
 }
 .container {
-    max-width: 960px;
+    max-width: 1000px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+
     display: flex;
 }
 .aside_block{
@@ -135,4 +133,38 @@ a{
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
 
+}
+.code{
+    font-family: 'Anonymous Pro', monospace;
+}
+.footer{
+    display: flex;
+    flex: 0 0 auto;
+    max-width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    background-color: #34383a;
+}
+.footer_git{
+    margin-top: 5px;
+    margin-left: 80px;
+    background-image: none;
+    height: 150px;
+    width: 168px;
+}
+.footer2021{
+    margin-top: 30px;
+    margin-left: 40px;
+    background-image: none;
+    height: 150px;
+    width: 250px;
+}
+.footer_rs{
+    margin-top: 10px;
+    margin-left: 230px;
+    background-image: none;
+    height: 150px;
+    width: 250px;
 }
